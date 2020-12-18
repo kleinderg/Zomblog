@@ -1,6 +1,202 @@
+/* Noto Sans */
+  @font-face {
+    font-family: 'Noto Sans';
+    src:  url('font/NotoSans-Regular.woff2') format('woff2'),
+          url('font/NotoSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans';
+    src:  url('font/NotoSans-Medium.woff2') format('woff2'),
+          url('font/NotoSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Noto Sans';
+    src:  url('font/NotoSans-Bold.woff2') format('woff2'),
+          url('font/NotoSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+/* CSS RESET
+  http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+  */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+/* Globals */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  padding: 0 2rem;
+}
+
+.container {
+  max-width: 1120px;
+  margin: auto;
+}
+
+/* Navbar Start*/
+  .navbar {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1.5rem 0;
+  }
+
+  .logo-text {
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -0.188rem;
+    text-transform: uppercase;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+  }
+
+  .nav-links {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 0px 2rem;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  .nav-links a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .nav-link {
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 0.025rem;
+    text-transform: uppercase;
+  }
+
+  .menu-icon {
+    display: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px 6px 6px 6px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+/* Nav End*/
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+#recent-posts {
+
+}
+
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  @media only screen and (max-device-width : 480px) {
+  /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { */
   /* Styles */
+    body {
+      padding: 0 1rem;
+    }
+    .navbar {
+      flex-wrap: wrap;
+      padding: 1rem 0;
+    }
+
+    .nav-link {
+      display: none;
+      padding: 0.5rem;
+      text-align: right;
+    }
+
+    .nav-link:first-child {
+      padding-top: 1rem;
+    }
+
+    .nav-links {
+      position:relative;
+      flex-direction:column;
+      flex-basis: 100%;
+      align-items: stretch;
+    }
+
+    .menu-icon {
+      display: flex;
+      /* position: absolute; */
+    }
+
+    .nav-link.responsive {
+      display: block;
+    }
   }
   
 /* Smartphones (landscape) ----------- */

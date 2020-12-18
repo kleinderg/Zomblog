@@ -5,6 +5,6 @@ No packages required, everything is Vanilla™: HTML, CSS, JS.
 
 ## Credits
 - [Zombie Ipsum](http://www.zombieipsum.com/)
-- [Hands Trunk Creepy by simonwijers on Pixabay](https://pixabay.com/photos/hands-trunk-creepy-zombies-forest-984032/)
-- [Lost Hell Limbo by ambroo on Pixabay](https://pixabay.com/photos/lost-hell-limbo-night-dark-forest-474124/)
-- [Zombie Flesh Eater Dead by 27707 on Pixabay](https://pixabay.com/photos/zombie-flesh-eater-dead-spooky-949915/)
+- [Hands Trunk Creepy](https://pixabay.com/photos/hands-trunk-creepy-zombies-forest-984032/) by simonwijers on Pixabay
+- [Lost Hell Limbo](https://pixabay.com/photos/lost-hell-limbo-night-dark-forest-474124/) by ambroo on Pixabay
+- [Zombie Flesh Eater Dead](https://pixabay.com/photos/zombie-flesh-eater-dead-spooky-949915/) by 27707 on Pixabay
