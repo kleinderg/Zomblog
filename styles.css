@@ -1,4 +1,4 @@
-/* Noto Sans */
+/* FONT */
   @font-face {
     font-family: 'Noto Sans';
     src:  url('font/NotoSans-Regular.woff2') format('woff2'),
@@ -54,18 +54,51 @@
     vertical-align: baseline;
   }
 
-/* Globals */
-body {
-  font-family: 'Noto Sans', sans-serif;
-  padding: 0 2rem;
-}
+/* GLOBAL */
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0 2rem;
+  }
 
-.container {
-  max-width: 1120px;
-  margin: auto;
-}
+  .container {
+    max-width: 1120px;
+    margin: auto;
+  }
 
-/* Navbar Start*/
+  /* Type Styles */
+  h1 {
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.875rem;
+    text-align: center;
+    letter-spacing: -0.1rem;
+  }
+
+  h2 {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    letter-spacing: -0.075rem;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    letter-spacing: -0.05rem;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.025rem;
+  }
+  /* Type Styles End */
+
+  /* Navbar Start*/
   .navbar {
     /* Auto Layout */
     display: flex;
@@ -135,101 +168,88 @@ body {
     flex-grow: 0;
     margin: 0px 0px;
   }
-/* Nav End*/
-
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-#recent-posts {
-
-}
+  /* Nav End*/
 
 
-
-
-/* Smartphones (portrait and landscape) ----------- */
-  @media only screen and (max-device-width : 480px) {
-  /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { */
-  /* Styles */
-    body {
-      padding: 0 1rem;
-    }
-    .navbar {
-      flex-wrap: wrap;
-      padding: 1rem 0;
-    }
-
-    .nav-link {
-      display: none;
-      padding: 0.5rem;
-      text-align: right;
-    }
-
-    .nav-link:first-child {
-      padding-top: 1rem;
-    }
-
-    .nav-links {
-      position:relative;
-      flex-direction:column;
-      flex-basis: 100%;
-      align-items: stretch;
-    }
-
-    .menu-icon {
-      display: flex;
-      /* position: absolute; */
-    }
-
-    .nav-link.responsive {
-      display: block;
-    }
-  }
+/* COMPONENTS */
+  /* Home Cover */
   
-/* Smartphones (landscape) ----------- */
-  @media only screen and (min-width : 321px) {
-  /* Styles */
-  }
-  
-/* Smartphones (portrait) ----------- */
-  @media only screen and (max-width : 320px) {
-  /* Styles */
-  }
-  
-/* iPads (portrait and landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  /* Styles */
-  }
-  
-/* iPads (landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  /* Styles */
-  }
-  
-/* iPads (portrait) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  /* Styles */
-  }
 
-/* Desktops and laptops ----------- */
-  @media only screen  and (min-width : 1224px) {
-  /* Styles */
-  }
-  
-/* Large screens ----------- */
-  @media only screen  and (min-width : 1824px) {
-  /* Styles */
-  }
+  /* Blog Card */
+
+
+
+/* BREAKPOINTS */
+  /* Smartphones (portrait and landscape) ----------- */
+    @media only screen and (max-device-width : 480px) {
+    /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { */
+    /* Styles */
+      body {
+        padding: 0 1rem;
+      }
+      .navbar {
+        flex-wrap: wrap;
+        padding: 1rem 0;
+      }
+
+      .nav-link {
+        display: none;
+        padding: 0.5rem;
+        text-align: right;
+      }
+
+      .nav-link:first-child {
+        padding-top: 1rem;
+      }
+
+      .nav-links {
+        position:relative;
+        flex-direction:column;
+        flex-basis: 100%;
+        align-items: stretch;
+      }
+
+      .menu-icon {
+        display: flex;
+        /* position: absolute; */
+      }
+
+      .nav-link.responsive {
+        display: block;
+      }
+    }
+    
+  /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 321px) {
+    /* Styles */
+    }
+    
+  /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    /* Styles */
+    }
+    
+  /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    }
+    
+  /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    }
+    
+  /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    }
+
+  /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1224px) {
+    /* Styles */
+    }
+    
+  /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+    /* Styles */
+    }
