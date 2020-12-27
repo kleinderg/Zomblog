@@ -1,5 +1,5 @@
 # Zomblog - A Vanilla Blog Template
-A what-would-it-be-like-to-build-that project that may or may not have utility for anyone building out a blog.
+[Preview on Glitch](https://zomblog.glitch.me/). A what-would-it-be-like-to-build-that project that may or may not have utility for anyone building out a blog.
 
 No packages required, everything is Vanilla™: HTML, CSS, JS.
 
