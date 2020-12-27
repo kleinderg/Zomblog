@@ -664,14 +664,6 @@
       color: white;
     }
 
-    .post-date {
-      font-size: 0.75rem;
-      line-height: 0.875rem;
-      text-align: center;
-      letter-spacing: 0.0125rem;
-      text-transform: uppercase;
-    }
-
     .post-author-container {
       /* Auto Layout */
       display: flex;
