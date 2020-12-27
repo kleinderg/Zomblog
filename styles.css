@@ -356,6 +356,9 @@
     }
   /* #endregion More-Link */  
   /* #region Cover */
+    header {
+      margin-top: -1px;
+    }
     .header-content {
       /* Auto Layout */
       display: flex;
