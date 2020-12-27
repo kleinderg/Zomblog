@@ -9,30 +9,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <header>
-    <div class="navbar">
-      <div class="logo-text">ZOMBLOG</div>
+  <header class="home-cover-section">
+    <div class="navbar nav-white">
+      <a href="./index.html" class="logo-text nav-white">ZOMBLOG</a>
       <a href="javascript:void(0);" class="menu-icon" onclick="openMenu()">
-        <img src="img/icon/menu-black.svg" alt="">
+        <img src="img/icon/menu-white.svg" alt="">
       </a>
       <nav class="nav-links" id="nav-links">
         <a class="nav-link" href="./index.html">Home</a>
-        <a class="nav-link" href="#">Blog</a>
-        <!-- <div class="nav-link"><a href="./index.html">Home</a></div>
-        <div class="nav-link">Blog</div> -->
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a class="nav-link" href="./blog.html">Blog</a>
+        <a href="./post.html" class="nav-link">Post</a>
       </nav>
     </div>
-    <section class="home-cover-section">
-      <div class="container">
-        <h2 class="home-cover-heading">Zombie ipsum reversus ab viral inferno</h2>
+    <section>
+      <div class="container header-content container-white">
+        <h2 class="cover-heading">Zombie ipsum reversus ab viral inferno</h2>
         <p class="cover-subtitle">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis.</p>
-        <div class="line"></div>
-        <div class="more-link-block">
-          <div class="more-link">Read the Post</div>
-          <div class="more-link-icon"><img src="img/icon/right-arrow.svg" alt=""></div>
-        </div>
+        <a class="more-link" href="./post.html">
+          <div class="more-link-label">Read the Post</div>
+          <img class="more-link-icon" src="img/icon/arrow-down-white.svg" alt="">
+        </a>
       </div>
     </section>
   </header>
@@ -42,15 +38,41 @@
       <h3>Recent Posts</h3>
       <div class="blog-cards-section">
         <div class="blog-card">
-          <div class="blog-card-img"><img src="img/blog-card-cover.jpg" alt="Placeholder Image"></div>
+          <img class="blog-card-img" src="img/blog-card-cover.jpg" alt="Placeholder Image">
           <div class="blog-card-body">
             <div class="blog-card-category-label">Category</div>
-            <h4 class="blog-card-title">Article Title</h4>
-            <p class="blog-card-teaser-text">Article text</p>
-            <div class="more-link-block">
-              <div class="more-link">Read the Post</div>
-              <div class="more-link-icon"><img src="img/icon/right-arrow.svg" alt=""></div>
-            </div>
+            <h4 class="blog-card-title">Mindless Mortuis</h4>
+            <p class="blog-card-teaser-text">Summus brains sit , morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus.</p>
+            <a class="more-link" href="#">
+              <div class="more-link-label">Read the Post</div>
+              <img class="more-link-icon" src="img/icon/right-arrow.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img class="blog-card-img" src="img/blog-card-cover.jpg" alt="Placeholder Image">
+          <div class="blog-card-body">
+            <div class="blog-card-category-label">Category</div>
+            <h4 class="blog-card-title">Mindless Mortuis</h4>
+            <p class="blog-card-teaser-text">Summus brains sit , morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus.</p>
+            <a class="more-link" href="#">
+              <div class="more-link-label">Read the Post</div>
+              <img class="more-link-icon" src="img/icon/right-arrow.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img class="blog-card-img" src="img/blog-card-cover.jpg" alt="Placeholder Image">
+          <div class="blog-card-body">
+            <div class="blog-card-category-label">Category</div>
+            <h4 class="blog-card-title">Mindless Mortuis</h4>
+            <p class="blog-card-teaser-text">Summus brains sit , morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus.</p>
+            <a class="more-link" href="#">
+              <div class="more-link-label">Read the Post</div>
+              <img class="more-link-icon" src="img/icon/right-arrow.svg" alt="">
+            </a>
           </div>
         </div>
       </div>
@@ -58,21 +80,46 @@
   </section>
 
   <section id="about-the-author">
-    <div class="container">
-      About the author section
+    <div class="container author-container-home">
+      <img class="author-photo-home" src="./img/author.jpg" alt="the author">
+      <div class="author-text-home">
+        <h3 class="author-name-home">Zob Rombie</h3>
+        <div class="author-title-home">Author</div>
+        <p class="text-3 author-bio-home">Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus.</p>
+        <div class="author-social-home">
+            <a class="social-icon-container" href="#">
+              <img src="./img/icon/facebook.svg" alt="" class="social-icon-home">
+            </a>
+            <a class="social-icon-container" href="#">
+              <img src="./img/icon/twitter.svg" alt="" class="social-icon-home">
+            </a>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="subscribe">
     <div class="container">
-      Subscribe section
+      <h3>Get Email Updates</h3>
+      <p class="text-3 email-updates-subtitle">Subscribe to our newsletter to get updates any Friday on weeks we publish new posts.</p>
+      <form action="#">
+        <div class="field-with-button subscribe-input">
+          <input type="text" id="fname" name="firstname" placeholder="Email Address">
+          <button class="subscribe-button" type="submit" value="Submit">Subscribe</button>
+        </div>
+      </form>
     </div>
   </section>
 
   <footer>
-    <div class="container">
-      Footer
-    </div>
+    <section>
+      <div class="container">
+        <div class="footer-contents">
+          <div class="footer-logo">ZOMBLOG</div>
+          <div class="footer-copyright-notice">© Copyright 2020 - Placeholder Inc.</div>
+        </div>
+      </div>
+    </section>
   </footer>
 
   <script src="scripts.js"></script> 
